@@ -1,0 +1,106 @@
+The target system is: Generic - 0.1 - i386
+The host system is: Linux - 5.10.7-1-default - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/cross/bin/i386-elf-gcc 
+Build flags: -ffreestanding;-mno-red-zone;-nostdlib
+Id flags:  
+
+The output was:
+0
+/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000008048074
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/maxi/Documents/Mictlantecutli/OS-0.3-cmake/build/CMakeFiles/3.19.3/CompilerIdC/a.out"
+
+Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+NASM version 2.13.02
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/maxi/Documents/Mictlantecutli/OS-0.3-cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/ninja cmTC_d38e1 && [1/2] Building C object CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=/opt/cross/bin/i386-elf-gcc
+Target: i386-elf
+Configured with: ../gcc-10.2.0/configure --target=i386-elf --prefix=/opt/cross --disable-nls --enable-languages=c,c++ --without-headers
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-ffreestanding' '-mno-red-zone' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+ /opt/cross/libexec/gcc/i386-elf/10.2.0/cc1 -quiet -v /opt/cmake/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mno-red-zone -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj -version -ffreestanding -o /tmp/cc3CMO7s.s
+GNU C17 (GCC) version 10.2.0 (i386-elf)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/sys-include"
+ignoring nonexistent directory "/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/cross/lib/gcc/i386-elf/10.2.0/include
+ /opt/cross/lib/gcc/i386-elf/10.2.0/include-fixed
+End of search list.
+GNU C17 (GCC) version 10.2.0 (i386-elf)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a5ff499ef8f0ed215e1d90444ccde800
+COLLECT_GCC_OPTIONS='-ffreestanding' '-mno-red-zone' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+ /opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/bin/as -o CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj /tmp/cc3CMO7s.s
+COMPILER_PATH=/opt/cross/libexec/gcc/i386-elf/10.2.0/:/opt/cross/libexec/gcc/i386-elf/10.2.0/:/opt/cross/libexec/gcc/i386-elf/:/opt/cross/lib/gcc/i386-elf/10.2.0/:/opt/cross/lib/gcc/i386-elf/:/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/bin/
+LIBRARY_PATH=/opt/cross/lib/gcc/i386-elf/10.2.0/:/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/lib/
+COLLECT_GCC_OPTIONS='-ffreestanding' '-mno-red-zone' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+[2/2] Linking C static library libcmTC_d38e1.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/cross/lib/gcc/i386-elf/10.2.0/include]
+    add: [/opt/cross/lib/gcc/i386-elf/10.2.0/include-fixed]
+  end of search list found
+  collapse include dir [/opt/cross/lib/gcc/i386-elf/10.2.0/include] ==> [/opt/cross/lib/gcc/i386-elf/10.2.0/include]
+  collapse include dir [/opt/cross/lib/gcc/i386-elf/10.2.0/include-fixed] ==> [/opt/cross/lib/gcc/i386-elf/10.2.0/include-fixed]
+  implicit include dirs: [/opt/cross/lib/gcc/i386-elf/10.2.0/include;/opt/cross/lib/gcc/i386-elf/10.2.0/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i386-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/maxi/Documents/Mictlantecutli/OS-0.3-cmake/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/ninja cmTC_d38e1 && [1/2] Building C object CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/cross/bin/i386-elf-gcc]
+  ignore line: [Target: i386-elf]
+  ignore line: [Configured with: ../gcc-10.2.0/configure --target=i386-elf --prefix=/opt/cross --disable-nls --enable-languages=c c++ --without-headers]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffreestanding' '-mno-red-zone' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [ /opt/cross/libexec/gcc/i386-elf/10.2.0/cc1 -quiet -v /opt/cmake/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mno-red-zone -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj -version -ffreestanding -o /tmp/cc3CMO7s.s]
+  ignore line: [GNU C17 (GCC) version 10.2.0 (i386-elf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/sys-include"]
+  ignore line: [ignoring nonexistent directory "/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/cross/lib/gcc/i386-elf/10.2.0/include]
+  ignore line: [ /opt/cross/lib/gcc/i386-elf/10.2.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.2.0 (i386-elf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a5ff499ef8f0ed215e1d90444ccde800]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffreestanding' '-mno-red-zone' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [ /opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/bin/as -o CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj /tmp/cc3CMO7s.s]
+  ignore line: [COMPILER_PATH=/opt/cross/libexec/gcc/i386-elf/10.2.0/:/opt/cross/libexec/gcc/i386-elf/10.2.0/:/opt/cross/libexec/gcc/i386-elf/:/opt/cross/lib/gcc/i386-elf/10.2.0/:/opt/cross/lib/gcc/i386-elf/:/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/bin/]
+  ignore line: [LIBRARY_PATH=/opt/cross/lib/gcc/i386-elf/10.2.0/:/opt/cross/lib/gcc/i386-elf/10.2.0/../../../../i386-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffreestanding' '-mno-red-zone' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_d38e1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [[2/2] Linking C static library libcmTC_d38e1.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
