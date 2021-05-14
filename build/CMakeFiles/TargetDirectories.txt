@@ -1,0 +1,4 @@
+/home/maxi/Documents/Mictlantecutli/OS-0.4.5-cmake/build/CMakeFiles/rebuild_cache.dir
+/home/maxi/Documents/Mictlantecutli/OS-0.4.5-cmake/build/CMakeFiles/OS-KERNEL.dir
+/home/maxi/Documents/Mictlantecutli/OS-0.4.5-cmake/build/CMakeFiles/edit_cache.dir
+/home/maxi/Documents/Mictlantecutli/OS-0.4.5-cmake/build/CMakeFiles/OS-BOOT.dir
